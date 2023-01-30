@@ -22,7 +22,6 @@ from transformers import BertModel, BertConfig
 
 # TODO: R-Drop(直接用作损失函数) (DONE)
 
-
 class RDrop(nn.Module):
     """
     R-Drop for classification tasks.
