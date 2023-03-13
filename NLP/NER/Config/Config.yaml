@@ -1,0 +1,11 @@
+data_path: './Datasets/CMeEE/'
+train_dataset: 'CMeEE_train.json'
+valid_dataset: 'CMeEE_dev.json'
+test_dataset: 'CMeEE_test.json'
+model_root_path: '../models/'
+model_name: 'MacBERT'
+global_pointer_head_dim: 64
+seed: 42
+epochs: 15
+batch_size: 64
+warmup_ratio: 0.1
